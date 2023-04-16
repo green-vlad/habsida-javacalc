@@ -27,7 +27,7 @@ public class Processor {
             case '*': return multiply(a, b);
             case '/': return divide(a, b);
             case '+': return sum(a, b);
-            default:  return substruct(a, b);
+            default:  return subtruct(a, b);
         }
     }
     
@@ -43,7 +43,7 @@ public class Processor {
         return a + b;
     }
 
-    private double substruct(double a, double b) {
+    private double subtruct(double a, double b) {
         return a - b;
     }
 }
